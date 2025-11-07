@@ -7,4 +7,6 @@ add_executable(MxHappyProblem___C__17__ main.cpp
         Normal_DFS.cpp
         Normal_DFS.hpp
         Memo_DFS.cpp
-        Memo_DFS.hpp)
+        Memo_DFS.hpp
+        Random_ALG.cpp
+        Random_ALG.hpp)

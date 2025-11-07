@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Normal_DFS.hpp"
 #include "Memo_DFS.hpp"
+#include "Random_ALG.hpp"
 
 std::vector<int> groups;
 int n , m;
@@ -25,7 +26,10 @@ int main() {
             Memo_DFS memo_dfs_ans;
             ans = n - memo_dfs_ans.maxHappyGroups(m,groups);
             break;
-
+        case 3:
+            Random_ALG rand_ans;
+            ans = n - rand_ans.maxHappyGroups(m,groups);
+            break;
         default:
             break;
     }
